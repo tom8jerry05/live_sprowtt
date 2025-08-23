@@ -1,0 +1,24 @@
+.login-box-body form{padding-bottom: 15px;}
+.login-box-body, .register-box-body{border-radius: 10px;}
+.login-box, .register-box{border-radius: 10px; box-shadow: 0 0 10px 10px #b0dca6;-moz-box-shadow: 0 0 10px 10px #b0dca6;-webkit-box-shadow: 0 0 10px 10px #b0dca6;}
+
+button.btn.btn-block.btn-flat{background: #40EA42;margin-bottom: 15px;color: #ffffff;}
+a.btn.btn-block.btn-flat{background: #40EA42;color: #ffffff;}
+
+button.btn.btn-block.btn-flat:hover{background: #959595;transition-duration: .6s;}
+a.btn.btn-block.btn-flat:hover{background: #959595;transition-duration: .6s;}
+
+@media only screen and (min-width:1920px){
+    .login-box, .register-box{width: 550px;}
+    .login-logo img{height: 110px;}
+    .register-logo img{height: 110px;}
+    .login-logo, .register-logo{margin-bottom: 50px;}
+    .form-group{margin-bottom: 25px;}
+    .form-control{height: 50px;    font-size: 22px;}
+    .login-box-body .form-control-feedback, .register-box-body .form-control-feedback{    font-size: 18px;top: 7px;}
+    .login-box, .register-box .btn{font-size: 22px;}
+    button.btn.btn-block.btn-flat{font-size: 22px;}
+    a.btn.btn-block.btn-flat{font-size: 22px;}
+    .login-box-msg, .register-box-msg{font-size: 22px;}
+    .home-btn {font-size: 22px;}
+}
